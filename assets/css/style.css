@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.typography {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.typography-size {
+  font-size: 25px;
+}
+.size {
+  align-self: flex-start;
+  justify-content: space-evenly;
+}
+.opacity {
+  background-color: black;
+  opacity: 0;
+}
+.w-fit {
+  width: fit-content;
+}
